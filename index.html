@@ -240,24 +240,23 @@ dialog{border:none; border-radius:16px; padding:0; background:transparent}
 
       <div id="cards" class="cards"></div>
     </section>
+
     <div id="cartOverlay" class="cart-overlay">
       <h3>🛒 Keranjang</h3>
       <div id="cartOverlayBody" class="cart-body"></div>
-      <div id="cartEmpty" class="cart-empty">Keranjang masih kosong.
-        <div style="font-size:12px">Pilih menu lalu klik <b>+ Tambah</b>.</div>
       <div class="totals">
         <div class="row"><span>Subtotal</span><span id="overlaySubtotal">Rp0</span></div>
         <div class="row"><span>Service 5%</span><span id="overlayService">Rp0</span></div>
         <div class="row"><span>PPN 10%</span><span id="overlayTax">Rp0</span></div>
         <div class="row"><span>Diskon</span><span id="overlayDiscount">- Rp0</span></div>
         <div class="row total"><span>Total</span><span id="overlayGrand">Rp0</span></div>
+        <button class="btn checkoutBtn" id="payBtn">Bayar & Cetak Struk</button>
       </div>
     </div>
     
+
     <aside class="cart">
-      <div id="cartOverlay" class="cart-overlay"></div>
       <h3>🛒 Keranjang</h3>
-      <div id="cartOverlayBody"></div>
       <div id="cartBody" class="cart-body"></div>
       <div id="cartEmpty" class="cart-empty">Keranjang masih kosong.
         <div style="font-size:12px">Pilih menu lalu klik <b>+ Tambah</b>.</div>
@@ -269,6 +268,7 @@ dialog{border:none; border-radius:16px; padding:0; background:transparent}
         <div class="row"><span>Diskon</span><span id="discount">- Rp0</span></div>
         <div class="row total"><span>Total</span><span id="grand">Rp0</span></div>
       </div>
+      
       <div class="checkout">
         <div>
           <div style="font-size:12px; color:var(--muted); margin:4px 2px">Metode Pembayaran</div>
